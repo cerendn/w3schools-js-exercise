@@ -47,4 +47,49 @@ alert(person.firstName);
 // };
 // alert(person.name + "is" + person.age);
 
+//let txt = "Hello World!";
+let a = txt.length;
+alert(a);
+
+//let txt= "We are \"Vikings\"";
+alert(txt);
+
+// let txt = "Hello World!";
+// txt = txt.toUpperCase();
+//txt=txt.toLowerCase();
+
+//let txt = "I can eat bananas all day";
+//let x = txt.slice(10,17);
+
+let txt = "Hello World";
+txt = txt.replace("Hello", "Welcome");
+
+const cars = ["Saab", "Volvo", "BMW"];
+let q = cars[1];
+
+//const cars = ["Volvo", "Jeep", "Mercedes"];
+cars[0]="Ford";
+alert (cars.length);
+
+const fruits = ["Banana", "Orange", "Apple"];
+fruits.pop();
+fruits.push("Kiwi");
+fruits.splice(1,2);
+fruits.sort();//alfabetik dizer
+
+const d = new Date();
+alert(d);
+year = d.getFullYear();
+month=d.getMonth();
+d.setFullYear(2020);
+
+let r = Math.random();
+
+//let x = Math.max(10,20);
+//let x =Math.round(5.3);
+//let x = Math.sqrt(9);
+
+const age = n;
+const voteable = (age<18) ? "Too young" : "Old enough";
+alert(voteable);
 
